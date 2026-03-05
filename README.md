@@ -53,5 +53,20 @@ BM25 loaded successfully
 LangGraph loaded successfully
 Environment setup working ✅
 
+## AI Log Analyzer Module
+
+An AI-powered log analysis system built using Retrieval-Augmented Generation (RAG).
+
+Features:
+- Log embedding using nomic-embed-text
+- Vector similarity search using FAISS
+- Log retrieval and analysis using Ollama LLM
+- Retrieval relevance grading
+- Automated explanation of system errors
+
+Run the analyzer:
+
+python ai-log-analyzer/log_rag_analyzer.py
+
 👩‍💻 Author
 Akshayaa
